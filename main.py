@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
-load_dotenv(override=True) 
+# from dotenv import load_dotenv
+# load_dotenv(override=True) 
 
 from langchain_openai import ChatOpenAI
 chat_model = ChatOpenAI()
